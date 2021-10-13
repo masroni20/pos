@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Log in</title>
+  <title>Aplikasi POS | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?=base_url('assets');?>/css/adminlte.min.css">
-  <link rel="stylesheet" href="<?=base_url('assets');?>/css/custom.css">
+  <link rel="stylesheet" href="<?=base_url('assets/css/adminlte.min.css');?>">
+  <link rel="stylesheet" href="<?=base_url('assets/css/custom.css');?>">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -53,12 +53,6 @@
             <!-- /.col -->
           </div>
         </form>
-        <!-- <p class="mb-1 mt-2">
-          <a href="">I forgot my password</a>
-        </p>
-        <p class="mb-0">
-          <a href="" class="text-center">Register a new membership</a>
-        </p> -->
       </div>
       <!-- /.login-card-body -->
     </div>

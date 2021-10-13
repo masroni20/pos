@@ -11,10 +11,10 @@
 <footer class="main-footer">
 	<!-- To the right -->
 	<div class="float-right d-none d-sm-inline">
-		Anything you want
+		Ver : 1.0.0
 	</div>
 	<!-- Default to the left -->
-	<strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+	<strong>Copyright &copy; <?= date('Y')?> <a href="<?=base_url()?>">Aplikasi POS</a>.</strong> All rights reserved.
 </footer>
 </div>
 <!-- ./wrapper -->
@@ -22,27 +22,20 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="<?=base_url('assets');?>/plugins/jquery/jquery.min.js"></script>
+<script src="<?=base_url('assets/plugins/jquery/jquery.min.js');?>"></script>
 <!-- Bootstrap 4 -->
-<script src="<?=base_url('assets');?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?=base_url('assets/plugins/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
 
 <!-- DataTables -->
-<script src="<?=base_url('assets');?>/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="<?=base_url('assets');?>/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<!-- <script src="/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script> -->
-<!-- <script src="/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script> -->
+<script src="<?=base_url('assets/plugins/datatables/jquery.dataTables.min.js');?>"></script>
+<script src="<?=base_url('assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js');?>"></script>
 <script>
 	$('#tabel1').DataTable();
 </script>
 
 <!-- AdminLTE App -->
-<script src="<?=base_url('assets');?>/js/adminlte.min.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="/js/pages/dashboard.js"></script> -->
-<!-- AdminLTE for demo purposes -->
-<script src="<?=base_url('assets');?>/js/demo.js"></script>
-
+<script src="<?=base_url('assets/js/adminlte.min.js');?>"></script>
 <!-- Custom App -->
-<script src="<?=base_url('assets');?>/js/custom.js"></script>
+<script src="<?=base_url('assets/js/custom.js');?>"></script>
 </body>
 </html>

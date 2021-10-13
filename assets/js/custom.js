@@ -215,6 +215,7 @@ $(document).ready(function() {
 		$("#tabel_keranjang tr").each(function() {
 			subtotal += parseInt($(this).find('#total').text())
 		})
+
 		isNaN(subtotal) ? $('#sub_total').val(0) : $('#sub_total').val(subtotal)
 		var diskon = $('#diskon').val()
 		var grand_total = subtotal - diskon

@@ -4,8 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class User_model extends CI_Model {
 
 	public function login($username) {
-		$query = $this->db->get_where('user', ['username' => $username]);
-		return $query; // mengembalikan data objek
+		return $this->db->get_where('user', ['username' => $username]); // mengembalikan data objek
 	}
 
 	public function getUser($id = null) {
